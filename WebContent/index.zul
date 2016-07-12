@@ -1,0 +1,28 @@
+<?page title="Auto Generated index.zul"?>
+<window title="Sistema para Gestão de Telemoveis" border="normal" width="100%" apply="mz.com.cenfoss.zk.java.controller.LoginController">
+	<div align="center">
+		<grid width="600px">
+			<columns>
+				<column width="30%" />
+			</columns>
+			<rows>
+				<row>
+					<label value="Username" />
+					<textbox name="username_textbox"
+						id="username_textbox" width="280px"/>
+				</row>
+				<row>
+					<label value="Password" id="password_label"/>
+					<textbox name="password_textbox"
+						id="password_textbox" width="280px" type="password"/>
+				</row>
+				<row>
+					<label />
+					<button id="login">Login</button>
+				</row>
+			</rows>
+		</grid>
+		<separator width="100%"/>
+		<label value="Username: 'admin' e Password: 'root'"/>
+	</div>
+</window>

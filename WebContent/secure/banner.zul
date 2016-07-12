@@ -1,0 +1,22 @@
+<?page title="" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window title="" border="none" width="100%"
+		apply="mz.com.cenfoss.zk.java.controller.IndexController">
+		<div align="center">
+			<image src="/images/banner.gif" />
+			<separator width="100%" />
+
+			<menubar width="100%">
+				<menu label="Sistema">
+					<menupopup>
+						<menuitem id="registar" label="Registar" />
+						<menuitem id="listar" label="Listar" />
+						<menuseparator />
+						<menuitem id="sair" label="LogOut"
+							href="/index.zul" />
+					</menupopup>
+				</menu>
+			</menubar>
+		</div>
+	</window>
+</zk>

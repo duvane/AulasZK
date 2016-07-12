@@ -1,0 +1,41 @@
+<?page title="Principal" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="" border="none" apply="mz.com.cenfoss.zk.java.controller.RegistoController">
+	<grid>
+		<columns>
+			<column width="35%"/>
+		</columns>
+		<rows>
+			<row>
+				<label value="Marca"/>
+				<textbox id="marcaTxtBox"/>
+			</row>
+			<row>
+				<label value="Modelo"/>
+				<textbox id="modeloTxtBox"/>
+			</row>
+			<row>
+				<label value="Fabricante"/>
+				<textbox id="fabricanteTxtBox"/>
+			</row>
+			<row>
+				<label value="Serial"/>
+				<longbox id="serialLongBox"/>
+			</row>
+			<row>
+				<label value="Cor"/>
+				<listbox id="corComboBox"  mold="select">
+					<listitem value="Preto" label="Preto"/>
+					<listitem value="Branco" label="Branco"/>
+					<listitem value="Azul" label="Azul"/>
+					<listitem value="Vermelho" label="Vermelho"/>
+				</listbox>
+			</row>
+			<row>
+				<label/>
+				<button id="gravarCelular" label="Gravar"/>
+			</row>
+		</rows>
+	</grid>
+</window>
+</zk>

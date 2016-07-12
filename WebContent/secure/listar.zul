@@ -1,0 +1,6 @@
+<?page title="Listagem" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window title="" border="none" id="WinListagem"
+		apply="mz.com.cenfoss.zk.java.controller.ListagemController">
+	</window>
+</zk>
